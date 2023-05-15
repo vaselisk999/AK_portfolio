@@ -1,4 +1,4 @@
-# Modern react Portfolio
+# Portfolio
 
 ## Desciption
 
@@ -34,10 +34,12 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The following image shows the web application's appearance and functionality:
 
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./public/Screenshot_1.png)
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./public/port.png)
 
 ## Questions
     
-* The URL of the GitHub repository. [Repository link](https://github.com/vaselisk999/modern_react_portfolio).
+* The URL of the GitHub repository. [Repository link](https://github.com/vaselisk999/AK_portfolio
+).
 
-* The URL of the deployed application. [Repository link](https://vaselisk999.github.io/modern_react_portfolio/).# AK_portfolio
+* The URL of the deployed application. [Repository link](https://vaselisk999.github.io/AK_portfolio
+/).# AK_portfolio

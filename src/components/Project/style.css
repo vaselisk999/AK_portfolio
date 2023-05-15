@@ -157,7 +157,7 @@
     }
 
     .imag_carde3{
-        width: 92%;
+        width: 50%;
         height: auto;
     }
     
@@ -215,7 +215,7 @@
     }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1920px) and (max-heightL: 1080px){
     .carusel_wrapper .carusel .card {
         overflow: hidden;
     }

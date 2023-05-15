@@ -48,20 +48,16 @@
                 "img": "solomoda.png"
             },
             {
-                "thumb": "thumb_cartoon.png",
-                "img": "cartoon.webm"
-            },
-            {
-                "thumb": "thumb_cook.png",
-                "img": "cookgood.png"
-            },
-            {
                 "thumb": "thumb_dental.png",
                 "img": "Dental.jpg"
             },
             {
                 "thumb": "thumb_mar.png",
                 "img": "mar.jpg"
+            },
+            {
+                "thumb": "thumb_cook.png",
+                "img": "cookgood.png"
             },
             {
                 "thumb": "thumb_mega.png",

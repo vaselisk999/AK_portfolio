@@ -1,0 +1,217 @@
+.projects_content .list section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.line_wrappew {
+    width: 20px;
+    border-right: 2px solid #fff;
+}
+
+.carusel_wrapper {
+    width: calc(100% - 20px);
+}
+
+.carusel_wrapper header h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px 0px 50px 0px;
+    text-transform: uppercase;
+}
+
+.carusel_wrapper header span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: -30px;
+    top: -11px;
+    margin-left: 20px;
+}
+
+.carusel_wrapper .carusel {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.carusel_wrapper .carusel .card-wrapper {
+    width: 400px;
+    height: 200px;
+    padding: 0 5px;
+}
+
+.carusel_wrapper .carusel .card {
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imag_carde1{
+    width: 100%;
+    height: auto;
+}
+
+.imag_carde1{
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev {
+    left: -60px;
+}
+
+.slick-prev::before {
+    content: "";
+}
+
+.slick-next::before {
+    content: "";
+}
+
+.slick-next {
+    right: -60px;
+}
+
+.slick-next,
+.slick-prev {
+    font-size: 0;
+    line-height: 0;
+    top: 50%;
+    width: 49px;
+    height: 92px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+    background: 0 0;
+}
+
+@media only screen and (max-width: 601px) {
+    .carusel_wrapper .carusel {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .carusel_wrapper .carusel {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 800px) and (max-height: 1280px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .imag_carde3{
+        width: 70%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 70%;
+        height: auto;
+    }
+
+    .slick-prev {
+        left: -40px;
+    }
+    
+    .slick-next {
+        right: -40px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3{
+        width: 92%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 34%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3{
+        width: 92%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 34%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3{
+        width: 92%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 34%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3{
+        width: 92%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 34%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3{
+        width: 92%;
+        height: auto;
+    }
+    
+    .imag_carde1{
+        width: 30%;
+        height: auto;
+    }
+}
+
+

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+/******************************
+	  Navigation Menu
+******************************/
+
+.horizontal-menu {
+	height: 50px;
+    position: fixed;
+    z-index: 1000;
+    width: 150px;
+	top: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	transform: translateY(-50%);
+}
+
+.horizontal-menu .menu{
+	height: 200px;
+	position: relative;
+	left: 50px;
+}
+
+.horizontal-menu li{
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+}
+
+.horizontal-menu li::before{
+	content: "";
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.horizontal-menu li a{
+	margin-left: 15px;
+	height: 100%;
+	color: #ffffff;
+}
+
+.horizontal-menu li:hover a::after{
+	opacity: 1;
+}	
+
+.horizontal-menu li a::after {
+	content: attr(data-menu);
+	display: inline-block;
+	transition: opacity 1s;
+	opacity: 0;
+	color: #ffffff;
+}
+
+.horizontal-menu li a:hover::after {
+	content: attr(data-menu);
+	opacity: 1;
+	display: inline-block;
+}
+
+.horizontal-menu li.active::before {
+	content: "";
+	background-color: transparent;
+	border: 2px solid #fff;
+	left: -2px;
+	position: relative;
+}
+
+
+@media only screen and (max-width: 601px) {
+	.horizontal-menu {
+		top: 15%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.horizontal-menu {
+		top: 15%;
+	}
+}
+

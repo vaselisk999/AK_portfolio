@@ -1,0 +1,152 @@
+.mask {
+  display: block;
+  background-color: #ff9a28;
+  margin-left: 54%;
+  margin-top: 10%;
+  position: absolute;
+  z-index: 10000;
+  -webkit-mask-image: url('./../assets/avatar.png');
+  mask-image: url('./../assets/avatar.png');
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 98%;
+  -webkit-mask-size: 98%;
+  mask-repeat: no-repeat;
+}
+
+.avatarI img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 601px) {
+  .avatarI {
+    left: 30%;
+    top: 8%;
+    mask-size: 60%;
+    -webkit-mask-size: 60%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 68%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .ava_2 {
+    display: none;
+  }
+
+  .ava_1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .avatarI {
+    left: 30%;
+    top: 8%;
+    mask-size: 60%;
+    -webkit-mask-size: 60%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 68%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .ava_2 {
+    display: none;
+  }
+
+  .ava_1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) and (max-height: 1280px) {
+  .avatarI {
+    left: 30%;
+    top: 8%;
+    mask-size: 60%;
+    -webkit-mask-size: 60%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 68%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .ava_2 {
+    display: none;
+  }
+
+  .ava_1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px){
+  .avatarI {
+    left: 50%;
+    top: 20%;
+    mask-size: 90%;
+    -webkit-mask-size: 90%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1366px){
+  .avatarI {
+    left: 50%;
+    top: 20%;
+    mask-size: 90%;
+    -webkit-mask-size: 90%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1440px){
+  .avatarI {
+    left: 55%;
+    top: 20%;
+    mask-size: 90%;
+    -webkit-mask-size: 90%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 1536px) {
+  .avatarI {
+    left: 55%;
+    top: 20%;
+    mask-size: 90%;
+    -webkit-mask-size: 90%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 95%;
+  }
+}

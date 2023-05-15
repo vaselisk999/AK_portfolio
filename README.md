@@ -38,6 +38,6 @@ The following image shows the web application's appearance and functionality:
 
 ## Questions
     
-* The URL of the GitHub repository. [Repository link](https://github.com/vaselisk999/AK_portfolio).
+* The URL of the GitHub repository. [Repository link](https://github.com/vaselisk999/modern_react_portfolio).
 
-* The URL of the deployed application. [Repository link](https://vaselisk999.github.io/AK_portfolio/).# AK_portfolio
+* The URL of the deployed application. [Repository link](https://vaselisk999.github.io/modern_react_portfolio/).# AK_portfolio

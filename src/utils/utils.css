@@ -94,6 +94,31 @@
     display: none;
   }
 }
+@media only screen and (max-width: 820px) and (max-height: 1180px)  {
+  .avatarI {
+    left: 30%;
+    top: 8%;
+    mask-size: 60%;
+    -webkit-mask-size: 60%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 68%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .ava_2 {
+    display: none;
+  }
+
+  .ava_1 {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 1182px) and (orientation: landscape){
   .avatarI {
@@ -109,7 +134,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) and (max-height: 800px){
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
   .avatarI {
     left: 50%;
     top: 20%;
@@ -123,7 +148,7 @@
   }
 }
 
-@media only screen and (max-width: 1366px){
+@media only screen and (max-width: 1366px) and (max-heightL: 768px) {
   .avatarI {
     left: 50%;
     top: 20%;
@@ -137,7 +162,7 @@
   }
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1440px) and (max-heightL: 900px) {
   .avatarI {
     left: 55%;
     top: 20%;
@@ -151,7 +176,7 @@
   }
 }
 
-@media only screen and (max-width: 1536px) {
+@media only screen and (max-width: 1536px) and (max-heightL: 864px) {
   .avatarI {
     left: 55%;
     top: 20%;

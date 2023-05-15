@@ -78,7 +78,6 @@ export default function ProjectComponent({ data, showModal }) {
                 <Slider {...setOption(data.thumbnail_image.length < 3 ? 1 : 3)} className="carusel">
                     {
                         data.thumbnail_image && data.thumbnail_image.map((value, index) => {
-                            console.log(value)
                             return (
                                 <div key={index+1} className="card-wrapper">
                                     <div className="card" onClick={() => { showModal(value.img) }}>

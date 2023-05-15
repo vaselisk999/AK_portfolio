@@ -153,6 +153,42 @@
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .home_wrapper_bg {
+        background-position: left 50%;
+        background-size: cover;
+    }
+
+    .container {
+        height: calc(100% - 80px - 240px);
+    }
+
+    .about_me {
+        width: 60%;
+    }
+
+    .avatar_wrapper {
+        display: none;
+    }
+
+    .home_wrapper .page_title h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .ava_2 {
+        display: none;
+    }
+
+    .ava_1 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 800px) and (max-height: 1280px) {
     .home_wrapper_bg {
         background-position: left 50%;
@@ -189,7 +225,44 @@
     }
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-device-width: 1180px) and (orientation:landscape){
+    .home_wrapper_bg {
+        background-position: left 50%;
+        background-size: cover;
+    }
+
+    .container {
+        max-width: 900px;
+        height: calc(100% - 80px - 240px);
+    }
+
+    .about_me {
+        width: 50%;
+    }
+
+    .avatar_wrapper {
+        width: 50%;
+    }
+
+    .home_wrapper .page_title h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .ava_2 {
+        display: none;
+    }
+
+    .ava_1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (max-heightL: 720px) {
     .home_wrapper_bg {
         background-position: right 50%;
         background-size: cover;
@@ -229,7 +302,7 @@
         margin: 0 !important;
     }
 }
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1366px) and (max-heightL: 768px) {
     .home_wrapper_bg {
         background-position: right 50%;
         background-size: cover;
@@ -270,7 +343,7 @@
     }
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1440px) and (max-heightL: 900px) {
     .home_wrapper_bg {
         background-position: right 50%;
         background-size: cover;
@@ -311,7 +384,7 @@
     }
 }
 
-@media only screen and (max-width: 1536px) {
+@media only screen and (max-width: 1536px) and (max-heightL: 864px) {
     .home_wrapper_bg {
         background-position: right 50%;
     }

@@ -69,7 +69,7 @@
   }
 }
 
-@media only screen and (max-width: 800px) and (max-height: 1280px) {
+@media only screen and (max-width: 800px) and (max-height: 1280px)  {
   .avatarI {
     left: 30%;
     top: 8%;
@@ -92,6 +92,20 @@
 
   .ava_1 {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 1182px) and (orientation: landscape){
+  .avatarI {
+    left: 50%;
+    top: 20%;
+    mask-size: 70%;
+    -webkit-mask-size: 70%;
+    margin: 0;
+  }
+
+  .avatarI img {
+    width: 80%;
   }
 }
 

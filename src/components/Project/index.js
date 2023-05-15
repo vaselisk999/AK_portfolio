@@ -41,8 +41,8 @@ function setOption(slides) {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: slides,
+                    slidesToScroll: slides,
                     infinite: true,
                 }
             },
@@ -78,8 +78,9 @@ export default function ProjectComponent({ data, showModal }) {
                 <Slider {...setOption(data.thumbnail_image.length < 3 ? 1 : 3)} className="carusel">
                     {
                         data.thumbnail_image && data.thumbnail_image.map((value, index) => {
+                            console.log(value)
                             return (
-                                <div key={index} className="card-wrapper">
+                                <div key={index+1} className="card-wrapper">
                                     <div className="card" onClick={() => { showModal(value.img) }}>
                                         <img className={data.thumbnail_image.length < 3 ? 'imag_carde' + 1: 'imag_carde' + 3} src={require('./../../assets/thumb/' + value.thumb)} alt="" />
                                     </div>

@@ -30,6 +30,7 @@ From the age of 2012 until the age of 2014, I worked for an outsourcing company,
             <Scrollbars className="list" autoHide={true}>
                 {
                     data && data.map((val, key) => {
+                        console.log(val)
                         return (
                             <ProjectComponent key={key} data={val} showModal={showModal} />
                         )

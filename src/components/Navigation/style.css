@@ -82,14 +82,19 @@ ul {
 	position: relative;
 }
 
-
-@media only screen and (max-width: 601px) {
+@media only screen and (max-width: 601px) and (orientation: portrait) {
 	.horizontal-menu {
 		top: 15%;
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+	.horizontal-menu {
+		top: 15%;
+	}
+}
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
 	.horizontal-menu {
 		top: 15%;
 	}

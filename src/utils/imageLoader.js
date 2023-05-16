@@ -13,4 +13,28 @@ const AvatarIamge = () => {
   )
 }
 
-export { AvatarIamge }
+const IconsIamge = () => {
+  return (
+    <MouseParallax strength="0.03">
+      <img src={require('./../assets/icons.png')} className="icons" alt="icons" />
+    </MouseParallax>
+  )
+}
+
+const AvatarBollSmallIamge = () => {
+  return (
+    <MouseParallax strength="0.02">
+      <img src={require('./../assets/ava_2.png')} className="ava_2"  alt="ava_2" />
+    </MouseParallax>
+  )
+}
+
+const AvatarBollBillIamge = () => {
+  return (
+    <MouseParallax strength="0.01">
+      <img src={require('./../assets/ava_1.png')} className="ava_1" alt="ava_1" />
+    </MouseParallax>
+  )
+}
+
+export { AvatarIamge, IconsIamge, AvatarBollSmallIamge, AvatarBollBillIamge }

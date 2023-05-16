@@ -54,13 +54,13 @@
     cursor: pointer;
 }
 
-.imag_carde1{
-    width: 100%;
+.imag_carde1 {
+    width: 30%;
     height: auto;
 }
 
-.imag_carde1{
-    width: 100%;
+.imag_carde3 {
+    width: 90%;
     height: auto;
 }
 
@@ -97,138 +97,235 @@
     background: 0 0;
 }
 
-@media only screen and (max-width: 601px) {
-    .carusel_wrapper .carusel {
-        width: 60%;
-    }
-}
+/* landscape */
 
-@media only screen and (max-width: 768px) {
-    .carusel_wrapper .carusel {
-        width: 60%;
-    }
-}
+@media only screen and (max-device-width: 1536px) and (orientation: landscape) {
 
-@media only screen and (max-width: 800px) and (max-height: 1280px) {
-    .carusel_wrapper .carusel .card {
-        overflow: hidden;
-        width: 75%;
-        margin: 0 auto;
-    }
-
-    .imag_carde3{
-        width: 70%;
-        height: auto;
-    }
-    
-    .imag_carde1{
-        width: 70%;
-        height: auto;
-    }
-
-    .slick-prev {
-        left: -40px;
-    }
-    
-    .slick-next {
-        right: -40px;
-    }
-}
-
-@media only screen and (max-width: 1280px) and (max-height: 800px) {
     .carusel_wrapper .carusel .card {
         overflow: hidden;
     }
 
-    .imag_carde3{
-        width: 92%;
+    .imag_carde3 {
+        width: 90%;
         height: auto;
     }
-    
-    .imag_carde1{
-        width: 34%;
+
+    .imag_carde1 {
+        width: 30%;
         height: auto;
     }
+
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 768px) and (-webkit-min-device-pixel-ratio: 1) and (orientation:landscape){
+@media only screen and (max-device-width: 1440px) and (orientation: landscape) {
+
     .carusel_wrapper .carusel .card {
         overflow: hidden;
     }
 
-    .imag_carde3{
-        width: 50%;
+    .imag_carde3 {
+        width: 90%;
         height: auto;
-    }
-    
-    .imag_carde1{
-        width: 34%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1366px) and (max-heightL: 768px){
-    .carusel_wrapper .carusel .card {
-        overflow: hidden;
     }
 
-    .imag_carde3{
-        width: 92%;
-        height: auto;
-    }
-    
-    .imag_carde1{
-        width: 34%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1440px) and (max-heightL: 900px) {
-    .carusel_wrapper .carusel .card {
-        overflow: hidden;
-    }
-
-    .imag_carde3{
-        width: 92%;
-        height: auto;
-    }
-    
-    .imag_carde1{
-        width: 34%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1536px) and (max-heightL: 864px) {
-    .carusel_wrapper .carusel .card {
-        overflow: hidden;
-    }
-
-    .imag_carde3{
-        width: 92%;
-        height: auto;
-    }
-    
-    .imag_carde1{
-        width: 34%;
-        height: auto;
-    }
-}
-
-@media only screen and (max-width: 1920px) and (max-heightL: 1080px){
-    .carusel_wrapper .carusel .card {
-        overflow: hidden;
-    }
-
-    .imag_carde3{
-        width: 92%;
-        height: auto;
-    }
-    
-    .imag_carde1{
+    .imag_carde1 {
         width: 30%;
         height: auto;
     }
 }
 
+@media only screen and (max-device-width: 1366px) and (orientation: landscape) {
 
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 1280px) and (orientation: landscape) {
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 1180px) and (orientation: landscape) {
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 90%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 960px) and (orientation: landscape) {
+
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-width: 800px) and (orientation: landscape) {
+
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 80%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* portrait */
+
+@media only screen and (max-device-height: 1366px) and (orientation: portrait) {
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 60%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-height: 1280px) and (orientation: portrait) {
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 60%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-height: 1024px) and (orientation: portrait) {
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 74%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 74%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-device-height: 960px) and (orientation: portrait) {
+    .carusel_wrapper .carusel {
+        width: 50%;
+    }
+
+    .carusel_wrapper .carusel .card {
+        overflow: hidden;
+    }
+
+    .imag_carde3 {
+        width: 74%;
+        height: auto;
+    }
+
+    .imag_carde1 {
+        width: 74%;
+        height: auto;
+    }
+}

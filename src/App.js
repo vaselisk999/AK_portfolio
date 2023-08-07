@@ -4,16 +4,17 @@ import { HashRouter as Router } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import HomeComponent from './components/Home';
 import ProjectsComponent from './components/Projects';
-import { ProgectBg } from './components/Projects/ProgectBg';
+import { PortfolioBg } from './components/Projects/PortfolioBg';
 import HomepageElements from './components/Home/HomepageElements';
-import PorfolioPageElements from './components/Projects/PorfolioPageElements';
+import PortfolioPageElements from './components/Projects/PortfolioPageElements';
 import ModalWindowComponent from './components/ModalWindow';
-import HeaderComponent from './components/Header';
+import HeaderComponent from './components/HeaderComponent';
+import EducationComponent from './components/EducationComponent';
+import { EducationBackground } from './components/EducationComponent/EducationBg';
 
 export default function App() {
   const parallax = useRef(null);
   const [imgPath, setImgPath] = useState(null);
-
   const [isModal, setModal] = useState(false);
 
   const showModal = (img) => {
@@ -22,7 +23,6 @@ export default function App() {
   }
 
   const closeModal = (e) => {
-    // e.stopPropagation();
     setModal(!isModal);
     setImgPath(null);
   }
@@ -32,8 +32,8 @@ export default function App() {
       <Router>
         <Navigation parallax={parallax} />
 
-        <main style={{ width: '100%', height: '100%', background: '#014fa2' }}>
-          <Parallax ref={parallax} pages={2} style={{ backgroundColor: '#014fa2', overflow: "hidden" }}>
+        <main style={{ width: '100%', height: '100%', background: '#ce8c15' }}>
+          <Parallax ref={parallax} pages={3} style={{ backgroundColor: '#ce8c15', overflow: "hidden" }}>
 
             <ParallaxLayer
               offset={0}
@@ -46,8 +46,6 @@ export default function App() {
               <HomeComponent />
             </ParallaxLayer>
 
-            
-
             <ParallaxLayer
               offset={1}
               speed={0.1}
@@ -56,10 +54,21 @@ export default function App() {
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-              <ProgectBg />
+              <PortfolioBg />
             </ParallaxLayer>
 
-            <PorfolioPageElements />
+            <ParallaxLayer
+              offset={2}
+              speed={0.1}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
+                <EducationBackground/>
+            </ParallaxLayer>
+
+            <PortfolioPageElements />
 
             <ParallaxLayer
               offset={1}
@@ -79,10 +88,33 @@ export default function App() {
               speed={0.1}
               style={{
               }}>
-              <HeaderComponent  />
+              <HeaderComponent darkMode={true}/>
+            </ParallaxLayer>
+
+            <ParallaxLayer
+              offset={2}
+              speed={0.1}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}>
+              <EducationComponent />
+            </ParallaxLayer>
+
+            <ParallaxLayer
+              offset={2}
+              speed={0.1}
+              style={{
+                display: 'flex',
+                alignItems: 'flex-end',
+                width: '100%'
+              }}>
+              <HeaderComponent darkMode={false} />
             </ParallaxLayer>
 
           </Parallax>
+
           <ModalWindowComponent imgPath={imgPath} closeModal={()=>{closeModal()}} isModal={isModal} />
         </main>
       </Router>

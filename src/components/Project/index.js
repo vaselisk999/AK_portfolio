@@ -67,22 +67,41 @@ function setOption(slides) {
 
 }
 
+const Card = ({data, func, value, className}) => {
+    return (
+        <div className={className} onClick={() => { func(value.img ? value.img : value.link ) }}>
+            <img className={data.length < 3 ? 'img_card' + 1 : 'img_card' + 3} src={require('./../../assets/thumb/' + value.thumb)} alt="" />
+        </div>
+    )
+}
+
 export default function ProjectComponent({ data, showModal }) {
+
+    const openLink = (link) => {
+        window.open(link);
+    }
+
+    const openModal = (img) => {
+        showModal(img);
+    }
+
     return (
         <section>
-            <div className="line_wrappew"></div>
-            <div className="carusel_wrapper">
+            <div className="line_wrapper"></div>
+            <div className="carousel_wrapper">
                 <header>
                     <h3><span className="dot"></span>{data.year}</h3>
                 </header>
-                <Slider {...setOption(data.thumbnail_image.length < 3 ? 1 : 3)} className="carusel">
+                <Slider {...setOption(data.thumbnail_image.length < 3 ? 1 : 3)} className="carousel">
                     {
                         data.thumbnail_image && data.thumbnail_image.map((value, index) => {
                             return (
-                                <div key={index+1} className="card-wrapper">
-                                    <div className="card" onClick={() => { showModal(value.img) }}>
-                                        <img className={data.thumbnail_image.length < 3 ? 'imag_carde' + 1: 'imag_carde' + 3} src={require('./../../assets/thumb/' + value.thumb)} alt="" />
-                                    </div>
+                                <div key={index + 1} className="card-wrapper">
+                                    {value.img ?
+                                        <Card className="card" func={(img)=> {openModal(img) }} value={value} data={data.thumbnail_image}/>
+                                        :
+                                        <Card className="card" func={(link)=> {openLink(link) }} value={value} data={data.thumbnail_image}/>
+                                    }
                                 </div>
                             )
                         })

@@ -1,22 +1,21 @@
 import React from "react";
-import { AvatarIamge, IconsIamge, AvatarBollSmallIamge, AvatarBollBillIamge } from './../../utils/imageLoader';
+import { AvatarImage, IconsImage, AvatarBollSmallImage, AvatarBollBillImage } from './../../utils/imageLoader';
 import { ParallaxLayer } from '@react-spring/parallax';
-import { MouseParallax } from "react-just-parallax";
 
 const HomepageElements = () => {
     return (
         <>
             <ParallaxLayer offset={0} speed={0.3} >
-                <IconsIamge />
+                <IconsImage />
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.2} >
-                <AvatarIamge />
+                <AvatarImage />
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1} >
-                <AvatarBollSmallIamge />
+                <AvatarBollSmallImage />
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1} >
-                <AvatarBollBillIamge />
+                <AvatarBollBillImage />
             </ParallaxLayer>
         </>
     )

@@ -30,21 +30,22 @@
 
 .projects_content .description {
     max-width: 1280px;
-    height: 120px;
-    margin: 0 auto;
+    height: 150px;
+    margin: 20px auto;
 }
 
 .projects_content .description p {
     width: 60%;
     margin-left: 10px;
     color: #000;
+    margin-bottom: 15px;
 }
 
 .projects_content .list {
     max-width: 1280px;
     margin: 0 auto;
     width: 100%;
-    height: calc(100% - (120px + 180px + 154px)) !important;
+    height: calc(100% - (190px + 180px + 154px)) !important;
     overflow-y: scroll;
     position: relative;
     z-index: 1010;
@@ -114,7 +115,7 @@
 
     .projects_content .list {
         max-width: 1200px;
-        height: calc(100% - (120px + 130px + 154px)) !important;
+        height: calc(100% - (190px + 130px + 154px)) !important;
     }
 
 }
@@ -140,7 +141,7 @@
 
     .projects_content .list {
         max-width: 1100px;
-        height: calc(100% - (120px + 130px + 154px)) !important;
+        height: calc(100% - (190px + 130px + 154px)) !important;
     }
 
     .airBalloon {
@@ -169,7 +170,7 @@
 
     .projects_content .list {
         max-width: 1100px;
-        height: calc(100% - (120px + 130px + 154px)) !important;
+        height: calc(100% - (190px + 130px + 154px)) !important;
     }
 
 }
@@ -195,7 +196,7 @@
 
     .projects_content .list {
         max-width: 1000px;
-        height: calc(100% - (120px + 130px + 154px)) !important;
+        height: calc(100% - (190px + 130px + 154px)) !important;
     }
 
     .airBalloon {
@@ -208,7 +209,7 @@
 
     .projects_content .page_title {
         max-width: 900px;
-        height: 130px;
+        height: 120px;
     }
 
     .projects_content .page_title h1 {
@@ -216,7 +217,9 @@
     }
 
     .projects_content .description {
-        max-width: 900px;
+        max-width: 800px;
+        height: 190px;
+        margin: 10px auto;
     }
 
     .projects_content .description p {
@@ -224,8 +227,8 @@
     }
 
     .projects_content .list {
-        max-width: 900px;
-        height: calc(100% - (120px + 130px + 154px)) !important;
+        max-width: 800px;
+        height: calc(100% - (210px + 120px + 154px)) !important;
     }
 
     .airBalloon {
@@ -247,6 +250,7 @@
 
     .projects_content .description {
         max-width: 740px;
+        height: 160px;
     }
 
     .projects_content .description p {
@@ -256,7 +260,7 @@
 
     .projects_content .list {
         max-width: 740px;
-        height: calc(100% - (100px + 120px + 154px)) !important;
+        height: calc(100% - (180px + 120px + 154px)) !important;
     }
 
     .airBalloon {
@@ -293,6 +297,7 @@
 
     .projects_content .description {
         max-width: 740px;
+        height: 160px;
     }
 
     .projects_content .description p {
@@ -301,8 +306,8 @@
     }
 
     .projects_content .list {
-        max-width: 740px;
-        height: calc(100% - (100px + 120px + 154px)) !important;
+        max-width: 540px;
+        height: calc(100% - (180px + 100px + 154px)) !important;
     }
 
     .airBalloon {
@@ -339,6 +344,7 @@
 
     .projects_content .description {
         max-width: 600px;
+        height: 160px;
     }
 
     .projects_content .description p {
@@ -348,7 +354,8 @@
 
     .projects_content .list {
         max-width: 600px;
-        height: calc(100% - (100px + 120px + 154px)) !important;
+        margin-right: 40px;
+        height: calc(100% - (180px + 100px + 154px)) !important;
     }
 
     .airBalloon {
@@ -514,17 +521,17 @@
 
     .projects_content .description {
         max-width: 620px;
-        height: 200px;
+        height: 170px;
     }
 
     .projects_content .description p {
-        width: 68%;
+        width: 80%;
         font-size: 0.9rem;
     }
 
     .projects_content .list {
         max-width: 620px;
-        height: calc(100% - (120px + 200px + 154px)) !important;
+        height: calc(100% - (120px + 210px + 154px)) !important;
     }
 
     .airBalloon {
@@ -532,18 +539,84 @@
         top: -20%;
     }
 
-    #cloud_3 {
-        width: 10%;
-        left: 94%;
+    #cloud_3, #cloud_2, #cloud_1 {
+        display: none;
     }
-    
-    #cloud_2 {
-        width: 15%;
-        left: 64%;
+}
+
+@media only screen and (max-width: 680px) and (orientation: portrait) {
+    .projects_content .page_title {
+        max-width: 620px;
+        height: 120px;
     }
-    
-    #cloud_1 {
-        width: 15%;
-        left: 72%;
+
+    .projects_content .page_title h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .projects_content .description {
+        max-width: 620px;
+        height: 170px;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .projects_content .description p {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+
+    .projects_content .list {
+        max-width: 620px;
+        height: calc(100% - (120px + 220px + 154px)) !important;
+    }
+
+    .airBalloon {
+        display: none;
+    }
+
+    #cloud_3, #cloud_2, #cloud_1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 380px) and (orientation: portrait) {
+    .projects_content .page_title {
+        max-width: 620px;
+        height: 120px;
+    }
+
+    .projects_content .page_title h1 {
+        font-size: 3.9rem;
+        text-align: center;
+    }
+
+    .projects_content .description {
+        max-width: 620px;
+        height: 170px;
+        height: calc(100% - (120px + 154px));
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .projects_content .description p {
+        width: 100%;
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+
+    .projects_content .list {
+        max-width: 620px;
+        display: none;
+    }
+
+    .airBalloon {
+        display: none;
+    }
+
+    #cloud_3, #cloud_2, #cloud_1 {
+        display: none;
     }
 }

@@ -1,7 +1,7 @@
 import './utils.css';
 import { MouseParallax } from "react-just-parallax";
 
-const AvatarIamge = () => {
+const AvatarImage = () => {
   return (
     <MouseParallax strength="0.02">
       <div className="mask avatarI">
@@ -13,7 +13,7 @@ const AvatarIamge = () => {
   )
 }
 
-const IconsIamge = () => {
+const IconsImage = () => {
   return (
     <MouseParallax strength="0.03">
       <img src={require('./../assets/icons.png')} className="icons" alt="icons" />
@@ -21,7 +21,7 @@ const IconsIamge = () => {
   )
 }
 
-const AvatarBollSmallIamge = () => {
+const AvatarBollSmallImage = () => {
   return (
     <MouseParallax strength="0.02">
       <img src={require('./../assets/ava_2.png')} className="ava_2"  alt="ava_2" />
@@ -29,7 +29,7 @@ const AvatarBollSmallIamge = () => {
   )
 }
 
-const AvatarBollBillIamge = () => {
+const AvatarBollBillImage = () => {
   return (
     <MouseParallax strength="0.01">
       <img src={require('./../assets/ava_1.png')} className="ava_1" alt="ava_1" />
@@ -37,4 +37,4 @@ const AvatarBollBillIamge = () => {
   )
 }
 
-export { AvatarIamge, IconsIamge, AvatarBollSmallIamge, AvatarBollBillIamge }
+export { AvatarImage, IconsImage, AvatarBollSmallImage, AvatarBollBillImage }

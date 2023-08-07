@@ -1,0 +1,130 @@
+.education_wrapper {
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(103deg, rgb(209, 145, 252) 0%, rgb(210, 167, 245) 70%, rgb(255, 255, 255) 70%);
+    height: 100%;
+    overflow: auto;
+}
+
+.education_content {
+    width: 100%;
+    height: 100%;
+}
+
+.education_content header {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.education_content .page_title {
+    height: 180px;
+}
+
+.education_content .page_title h1 {
+    -webkit-text-stroke: 1px #292929;
+    color: transparent;
+    font-size: 140px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.education_content .container h1 {
+    -webkit-text-stroke: 1px #292929;
+    color: transparent;
+    font-size: 140px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: none;
+}
+
+.education_content .container {
+    max-width: 1280px;
+    height: calc(100% - 180px - 140px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.education_content .container article {
+    margin: 15px;
+}
+
+.education_content .container img {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.education_content .container h3 {
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1536px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1366px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 1180px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 1024px;
+    }
+}
+
+@media only screen and (max-width: 960px) and (orientation: landscape) {
+    .education_content .page_title {
+        max-width: 960px;
+    }
+    .education_content .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 960px) and (orientation: portrait){
+    .education_content .page_title {
+        width: 100%;
+    }
+
+    .education_content .page_title h1 {
+        display: none;
+    }
+    
+    .education_content .container h1 {
+        font-size: 80px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait){
+    .education_content .page_title {
+        width: 100%;
+    }
+
+    .education_content .page_title h1 {
+        display: none;
+    }
+    
+    .education_content .container h1 {
+        font-size: 54px;
+        display: block;
+    }
+}

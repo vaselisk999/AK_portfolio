@@ -114,6 +114,7 @@
     top: 20%;
     mask-size: 70%;
     -webkit-mask-size: 70%;
+    display: none;
   }
 
   .mask img {
@@ -122,6 +123,14 @@
 
   .icons {
     width: 22%;
+    display: none;
+  }
+  .ava_2 {
+    display: none;
+  }
+  
+  .ava_1 {
+    display: none;
   }
 }
 
@@ -132,6 +141,7 @@
     top: 20%;
     mask-size: 80%;
     -webkit-mask-size: 80%;
+    display: none;
   }
 
   .mask img {
@@ -142,16 +152,19 @@
     width: 22%;
     left: 77%;
     top: 13%;
+    display: none;
   }
 
   .ava_2 {
     left: 79%;
     top: 60%;
+    display: none;
   }
   
   .ava_1 {
     left: 79%;
     top: 80%;
+    display: none;
   }
 }
 
@@ -162,6 +175,7 @@
     top: 20%;
     mask-size: 80%;
     -webkit-mask-size: 80%;
+    display: none;
   }
 
   .mask img {
@@ -172,16 +186,19 @@
     width: 22%;
     left: 77%;
     top: 13%;
+    display: none;
   }
 
   .ava_2 {
     left: 79%;
     top: 60%;
+    display: none;
   }
   
   .ava_1 {
     left: 79%;
     top: 80%;
+    display: none;
   }
 }
 
@@ -192,6 +209,7 @@
     top: 20%;
     mask-size: 80%;
     -webkit-mask-size: 80%;
+    display: none;
   }
 
   .mask img {
@@ -202,18 +220,21 @@
     width: 22%;
     left: 77%;
     top: 13%;
+    display: none;
   }
 
   .ava_2 {
     width: 10%;
     left: 79%;
     top: 60%;
+    display: none;
   }
   
   .ava_1 {
     width: 15%;
     left: 79%;
     top: 80%;
+    display: none;
   }
 }
 
@@ -226,6 +247,7 @@
     top: 10%;
     mask-size: 75%;
     -webkit-mask-size: 75%;
+    display: none;
   }
 
   .mask img {
@@ -236,6 +258,7 @@
     width: 30%;
     left: 55%;
     top: 5%;
+    display: none;
   }
 
   .ava_2 {
@@ -327,3 +350,4 @@
     display: none;
   }
 }
+

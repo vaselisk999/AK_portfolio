@@ -6,7 +6,7 @@ import CloudTwo from '../../assets/cloud_2';
 import CloudOne from '../../assets/cloud_1';
 import AirBalloon from '../../assets/airBalloon';
 
-const PorfolioPageElements = () => {
+const PortfolioPageElements = () => {
   return (
     <>
       <ParallaxLayer offset={1} speed={0.3} >
@@ -32,4 +32,4 @@ const PorfolioPageElements = () => {
 
 }
 
-export default PorfolioPageElements;
+export default PortfolioPageElements;

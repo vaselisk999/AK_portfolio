@@ -1,6 +1,7 @@
 .header_wrapper {
     height: 140px;
     max-width: 1280px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

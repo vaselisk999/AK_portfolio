@@ -22,6 +22,9 @@ export default function Navigation({ parallax }) {
             case "portfolio":
                 parallax.current.scrollTo(1);
                 break;
+            case "education":
+                parallax.current.scrollTo(2);
+                break;
             default:
                 parallax.current.scrollTo(0);
                 break;
@@ -46,6 +49,14 @@ export default function Navigation({ parallax }) {
                             to="portfolio"
                             data-menu="Portfolio"
                             onClick={() => parallax.current.scrollTo(1)}
+                        >
+                        </Link>
+                    </li>
+                    <li onClick={()=>{navigate('/education')}} className={splitLocation[1] === "education" ? "active" : ""} >
+                        <Link
+                            to="education"
+                            data-menu="Education"
+                            onClick={() => parallax.current.scrollTo(2)}
                         >
                         </Link>
                     </li>

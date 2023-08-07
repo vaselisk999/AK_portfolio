@@ -1,7 +1,7 @@
 import React  from "react";
 import "./style.css";
 
-export const ProgectBg = () => {
+export const PortfolioBg = () => {
     return (
         <section className="projects_wrapper">
         </section>
